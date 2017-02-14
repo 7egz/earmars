@@ -2,7 +2,7 @@ var gulp = require('gulp'),
     webserver = require('gulp-webserver'),
     typescript = require('gulp-typescript'),
     sourcemaps = require('gulp-sourcemaps'),
-    tscConfig = require('./tsconfig.json'),
+    tscConfig = require('./tsconfig.json');
 
 var appSrc = 'builds/development/',
     tsSrc = 'process/typescript/';
