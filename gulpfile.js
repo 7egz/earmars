@@ -4,8 +4,8 @@ var gulp = require('gulp'),
     sourcemaps = require('gulp-sourcemaps'),
     tscConfig = require('./tsconfig.json');
 
-var appSrc = 'builds/development/',
-    tsSrc = 'process/typescript/';
+var appSrc = 'builds/',
+    tsSrc = 'typescript/';
 
 gulp.task('html', function() {
   gulp.src(appSrc + '**/*.html');
